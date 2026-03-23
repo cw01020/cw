@@ -1,0 +1,9 @@
+snacks = ["콜라", "과자", "콜라", "사탕"]                           
+snacks.append("초콜릿") 
+print(snacks)    
+print(snacks.count("콜라"))      
+print(snacks.index("사탕"))  
+print(snacks.remove("사탕")) 
+new_snacks = ["젤리", "쿠키"] 
+snacks.extend(new_snacks) 
+print(snacks)
